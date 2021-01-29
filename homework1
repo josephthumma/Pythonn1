@@ -1,0 +1,100 @@
+>>> int x=5
+  File "<stdin>", line 1
+    int x=5
+        ^
+SyntaxError: invalid syntax
+>>> x =6
+>>> x
+6
+>>> _x=10.5
+>>> x
+6
+>>> _x
+10.5
+>>> 20people=20
+  File "<stdin>", line 1
+    20people=20
+      ^
+SyntaxError: invalid syntax
+>>> my_33_cows=33
+>>> my_33_cows
+33
+>>> big$exit=105
+  File "<stdin>", line 1
+    big$exit=105
+       ^
+SyntaxError: invalid syntax
+>>> koushik
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'koushik' is not defined
+>>> joseph pavan
+  File "<stdin>", line 1
+    joseph pavan
+           ^
+SyntaxError: invalid syntax
+>>> GalmoraK
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'GalmoraK' is not defined
+>>> bool(5)
+True
+>>> bool(0)
+False
+>>> str="Hello"
+>>>  str[1]
+  File "<stdin>", line 1
+    str[1]
+IndentationError: unexpected indent
+>>> str="Hello"
+>>>  str[1]
+  File "<stdin>", line 1
+    str[1]
+IndentationError: unexpected indent
+>>> str="Hello"
+>>>  str[-1]
+  File "<stdin>", line 1
+    str[-1]
+IndentationError: unexpected indent
+>>> str="hello"
+>>> len(str)
+5
+>>> the_string="Hello\nWorld"
+>>> the_string 'Hello\nWorld'
+  File "<stdin>", line 1
+    the_string 'Hello\nWorld'
+               ^
+SyntaxError: invalid syntax
+>>> the_string="Hello\nWorld"
+>>> the_string 'Hello\nWorld'
+  File "<stdin>", line 1
+    the_string 'Hello\nWorld'
+               ^
+SyntaxError: invalid syntax
+>>> my_string="foo"
+>>> my_string='bar'
+>>> my_string='foo\tbar'
+>>> my_string='''boo le an'''
+>>>
+>>> bool("False")
+True
+>>>  print "Hello\n World"
+  File "<stdin>", line 1
+    print "Hello\n World"
+IndentationError: unexpected indent
+>>>  print "Hello \nWorld"
+  File "<stdin>", line 1
+    print "Hello \nWorld"
+IndentationError: unexpected indent
+>>>  print "Hello \n World"
+  File "<stdin>", line 1
+    print "Hello \n World"
+IndentationError: unexpected indent
+>>> the_string="Hello World"
+>>> for word in the_string.split():
+... \print word
+  File "<stdin>", line 2
+SyntaxError: unexpected character after line continuation character
+name = “hello”
+print((name + "") * 1000)
+hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello
